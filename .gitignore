@@ -1,0 +1,76 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+/target/
+/out/
+
+mysql/
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+/*.iws
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Maven
+.mvn/
+!**/src/main/**/mvn-wrapper.jar
+!**/src/main/**/mvn-wrapper.properties
+!**/src/main/**/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+/build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+/bin/
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+*.env
+docker-compose.override.yml
+**/Dockerfile
+
+# Git
+/.idea/
+/*.swp
+**/*~
+*.bak
+*.orig
+*.tmp
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
+*~
+*#*
+
+# Ignore MySQL socket files
+mysql/*.sock
+mysql/*.pid
+mysql/*.err
+
